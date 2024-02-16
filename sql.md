@@ -93,7 +93,7 @@ TRUNCATE TABLE tablename;
 
     ```sql
     create table osztalyok(
-        az int not null primary key auto_increment,
+        az int primary key auto_increment,
         nev varchar(50)
     );
     ```
